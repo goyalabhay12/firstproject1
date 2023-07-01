@@ -1,0 +1,171 @@
+/* style.css */
+
+/* Navbar section */
+.navbar-container {
+    background-color: green;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Home section */
+  .banner-container {
+    background-color:wheat;
+  }
+  
+  #profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  #ns {
+    color:rgb(170, 68, 225);
+  }
+  
+  #subtitlee {
+    color: #090909;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin-inline: 30px;
+    color: green;
+  }
+  
+  /* About Me Section */
+  .about-container {
+    background-color: wheat;
+    padding: 50px 0;
+    text-align:left;
+
+  }
+   
+
+  
+  
+  /* Education section */
+  .education-container {
+    background-color:wheat;
+    color: #000;
+    padding: 20px 0;
+  }
+  
+  .timeline-date {
+    margin-bottom: 2px;
+  }
+  
+  .timeline-title {
+    margin-top: 20px;
+  }
+  
+  .timeline-text {
+    margin-bottom: 10px;
+  }
+  
+  /* Experience section */
+  .box {
+    color: whitesmoke;
+    background-color: green;
+    padding: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px wheat (0, 0, 0, 0.1);
+    text-align: center;
+  }
+  /* Skills section*/
+  .skills-container{
+     background-color:wheat;
+    color: #000000;
+    padding: 20px 0;
+  }
+  
+  .timeline-date {
+    margin-bottom: 2px;
+  }
+  
+  .timeline-title {
+    margin-top: 20px;
+  }
+  
+  .timeline-text {
+    margin-bottom: 10px;
+  }
+  .animated-element {
+    opacity: 0;
+    animation: fade-in 3s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Apply vertical translation */
+    }
+    to {
+      opacity: 3;
+      transform: translateY(0); /* Optional: Reset vertical translation */
+    }
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  
+  /* Project section */
+  .project-container {
+    background-color: wheat;
+    padding: 50px 0;
+    align-items: center;
+  }
+  
+  #c {
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  
+  .card {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .card-img-top {
+    border-radius: 5px 5px 0 0;
+    align-items: center;
+  }
+  
+  /* Contact section */
+  .contact-container {
+    background-color: green;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .inner-form {
+    border-radius: 10px;
+  }
+  
+  .btn-primary {
+    background-color: green;
+    border-color: green;
+    text-align: center;
+  }
+  /* Footer section */
+  .footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
